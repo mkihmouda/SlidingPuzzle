@@ -22,13 +22,11 @@ Sliding Image Puzzle IOS Swift image puzzle game.
   <br><br>  <br><br>
   <img src="http://katikids.com/IPuzzle1.png" height="850" width="400">
  
-  </p>
   
   
   
   <p align="right">
  
-  <br><br>  <br><br>
   <img src="http://katikids.com/IPuzzle1.png" height="850" width="400">
  
   </p>
