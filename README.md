@@ -45,7 +45,7 @@ Sliding Image Puzzle IOS Swift image puzzle game.
   
   <p align="center">
  
-  <img src="http://katikids.com/IPuzzle3.png" height="350" width="800">
+  <img src="http://katikids.com/IPuzzle3.png" height="850" width="400">
  
   </p>
   
@@ -60,7 +60,7 @@ Sliding Image Puzzle IOS Swift image puzzle game.
   
   <p align="center">
  
-  <img src="http://katikids.com/IPuzzle5.png" height="350" width="800">
+  <img src="http://katikids.com/IPuzzle5.png" height="850" width="400">
  
   </p>
   
