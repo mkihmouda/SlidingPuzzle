@@ -17,15 +17,15 @@ Sliding Image Puzzle IOS Swift image puzzle game.
 “SlidingPuzzle” support animation, popup views and sound functionalities along beside with the hint option. App support both the portrait and landscape views
 
 
-<p align="left">
+<p align="center">
  
    <img src="http://katikids.com/IPuzzle1.png" height="850" width="400">
  
   
   
   
-  <p align="right">
+  <p align="center">
  
-  <img src="http://katikids.com/IPuzzle1.png" height="850" width="400">
+  <img src="http://katikids.com/IPuzzle6.png" height="350" width="800">
  
   </p>
