@@ -8,13 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		0400E8A01DC0AF5700DF41C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0400E89F1DC0AF5700DF41C9 /* AppDelegate.swift */; };
-		0400E8A21DC0AF5700DF41C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0400E8A11DC0AF5700DF41C9 /* ViewController.swift */; };
 		0400E8A51DC0AF5700DF41C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0400E8A31DC0AF5700DF41C9 /* Main.storyboard */; };
 		0400E8A81DC0AF5700DF41C9 /* PuzzleGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0400E8A61DC0AF5700DF41C9 /* PuzzleGame.xcdatamodeld */; };
 		0400E8AA1DC0AF5700DF41C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0400E8A91DC0AF5700DF41C9 /* Assets.xcassets */; };
 		0400E8AD1DC0AF5700DF41C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0400E8AB1DC0AF5700DF41C9 /* LaunchScreen.storyboard */; };
 		0400E8B81DC0AF5800DF41C9 /* PuzzleGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0400E8B71DC0AF5800DF41C9 /* PuzzleGameTests.swift */; };
 		0400E8C31DC0AF5800DF41C9 /* PuzzleGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0400E8C21DC0AF5800DF41C9 /* PuzzleGameUITests.swift */; };
+		0400E8D71DC0B03000DF41C9 /* puzzleLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0400E8D61DC0B03000DF41C9 /* puzzleLogo.png */; };
+		0400E8D91DC0B05E00DF41C9 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0400E8D81DC0B05E00DF41C9 /* HomeVC.swift */; };
+		0400E8DE1DC0B21600DF41C9 /* PuzzleGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0400E8DA1DC0B21600DF41C9 /* PuzzleGame.swift */; };
+		0400E8DF1DC0B21600DF41C9 /* TimerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0400E8DB1DC0B21600DF41C9 /* TimerClass.swift */; };
+		0400E8E01DC0B21600DF41C9 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0400E8DC1DC0B21600DF41C9 /* SoundPlayer.swift */; };
+		0400E8E11DC0B21600DF41C9 /* RandomUniquieArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0400E8DD1DC0B21600DF41C9 /* RandomUniquieArray.swift */; };
+		0400E8E41DC0B40200DF41C9 /* winner.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0400E8E31DC0B40200DF41C9 /* winner.wav */; };
+		0400E8E61DC0B40C00DF41C9 /* game.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0400E8E51DC0B40C00DF41C9 /* game.wav */; };
+		0400E8E91DC0B46600DF41C9 /* stoehr_numbers_1-2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0400E8E81DC0B46600DF41C9 /* stoehr_numbers_1-2.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +45,6 @@
 /* Begin PBXFileReference section */
 		0400E89C1DC0AF5700DF41C9 /* PuzzleGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PuzzleGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0400E89F1DC0AF5700DF41C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0400E8A11DC0AF5700DF41C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0400E8A41DC0AF5700DF41C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0400E8A71DC0AF5700DF41C9 /* PuzzleGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PuzzleGame.xcdatamodel; sourceTree = "<group>"; };
 		0400E8A91DC0AF5700DF41C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +56,15 @@
 		0400E8BE1DC0AF5800DF41C9 /* PuzzleGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PuzzleGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0400E8C21DC0AF5800DF41C9 /* PuzzleGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleGameUITests.swift; sourceTree = "<group>"; };
 		0400E8C41DC0AF5800DF41C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0400E8D61DC0B03000DF41C9 /* puzzleLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = puzzleLogo.png; sourceTree = "<group>"; };
+		0400E8D81DC0B05E00DF41C9 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		0400E8DA1DC0B21600DF41C9 /* PuzzleGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuzzleGame.swift; sourceTree = "<group>"; };
+		0400E8DB1DC0B21600DF41C9 /* TimerClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerClass.swift; sourceTree = "<group>"; };
+		0400E8DC1DC0B21600DF41C9 /* SoundPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		0400E8DD1DC0B21600DF41C9 /* RandomUniquieArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomUniquieArray.swift; sourceTree = "<group>"; };
+		0400E8E31DC0B40200DF41C9 /* winner.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = winner.wav; sourceTree = "<group>"; };
+		0400E8E51DC0B40C00DF41C9 /* game.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = game.wav; sourceTree = "<group>"; };
+		0400E8E81DC0B46600DF41C9 /* stoehr_numbers_1-2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "stoehr_numbers_1-2.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +115,12 @@
 		0400E89E1DC0AF5700DF41C9 /* PuzzleGame */ = {
 			isa = PBXGroup;
 			children = (
+				0400E8D41DC0B00700DF41C9 /* Resources */,
+				0400E8D31DC0AFFB00DF41C9 /* Utilities */,
+				0400E8D21DC0AFF600DF41C9 /* Controller */,
+				0400E8D11DC0AFF100DF41C9 /* View */,
+				0400E8D01DC0AFE700DF41C9 /* Model */,
 				0400E89F1DC0AF5700DF41C9 /* AppDelegate.swift */,
-				0400E8A11DC0AF5700DF41C9 /* ViewController.swift */,
 				0400E8A31DC0AF5700DF41C9 /* Main.storyboard */,
 				0400E8A91DC0AF5700DF41C9 /* Assets.xcassets */,
 				0400E8AB1DC0AF5700DF41C9 /* LaunchScreen.storyboard */,
@@ -126,6 +146,74 @@
 				0400E8C41DC0AF5800DF41C9 /* Info.plist */,
 			);
 			path = PuzzleGameUITests;
+			sourceTree = "<group>";
+		};
+		0400E8D01DC0AFE700DF41C9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0400E8DA1DC0B21600DF41C9 /* PuzzleGame.swift */,
+				0400E8DB1DC0B21600DF41C9 /* TimerClass.swift */,
+				0400E8DC1DC0B21600DF41C9 /* SoundPlayer.swift */,
+				0400E8DD1DC0B21600DF41C9 /* RandomUniquieArray.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0400E8D11DC0AFF100DF41C9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		0400E8D21DC0AFF600DF41C9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0400E8D81DC0B05E00DF41C9 /* HomeVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		0400E8D31DC0AFFB00DF41C9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		0400E8D41DC0B00700DF41C9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0400E8E71DC0B42E00DF41C9 /* fonts */,
+				0400E8E21DC0B3F200DF41C9 /* sounds */,
+				0400E8D51DC0B02500DF41C9 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		0400E8D51DC0B02500DF41C9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0400E8D61DC0B03000DF41C9 /* puzzleLogo.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		0400E8E21DC0B3F200DF41C9 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				0400E8E31DC0B40200DF41C9 /* winner.wav */,
+				0400E8E51DC0B40C00DF41C9 /* game.wav */,
+			);
+			name = sounds;
+			sourceTree = "<group>";
+		};
+		0400E8E71DC0B42E00DF41C9 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0400E8E81DC0B46600DF41C9 /* stoehr_numbers_1-2.ttf */,
+			);
+			name = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,8 +323,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0400E8E61DC0B40C00DF41C9 /* game.wav in Resources */,
+				0400E8D71DC0B03000DF41C9 /* puzzleLogo.png in Resources */,
 				0400E8AD1DC0AF5700DF41C9 /* LaunchScreen.storyboard in Resources */,
+				0400E8E41DC0B40200DF41C9 /* winner.wav in Resources */,
 				0400E8AA1DC0AF5700DF41C9 /* Assets.xcassets in Resources */,
+				0400E8E91DC0B46600DF41C9 /* stoehr_numbers_1-2.ttf in Resources */,
 				0400E8A51DC0AF5700DF41C9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,8 +355,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0400E8A81DC0AF5700DF41C9 /* PuzzleGame.xcdatamodeld in Sources */,
-				0400E8A21DC0AF5700DF41C9 /* ViewController.swift in Sources */,
+				0400E8E11DC0B21600DF41C9 /* RandomUniquieArray.swift in Sources */,
+				0400E8D91DC0B05E00DF41C9 /* HomeVC.swift in Sources */,
 				0400E8A01DC0AF5700DF41C9 /* AppDelegate.swift in Sources */,
+				0400E8DF1DC0B21600DF41C9 /* TimerClass.swift in Sources */,
+				0400E8E01DC0B21600DF41C9 /* SoundPlayer.swift in Sources */,
+				0400E8DE1DC0B21600DF41C9 /* PuzzleGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

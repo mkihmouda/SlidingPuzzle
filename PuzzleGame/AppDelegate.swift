@@ -13,10 +13,83 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    var  homeVC : HomeVC!
+    
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        
+        //sleep(1) // sleep 1 seconds
         // Override point for customization after application launch.
+        
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        self.window!.backgroundColor = UIColor(red: 0.1, green: 0.9, blue: 0.1, alpha: 1)
+        self.window!.makeKeyAndVisible()
+        
+        // rootViewController from StoryBoard
+        let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        homeVC = mainStoryboard.instantiateViewControllerWithIdentifier("homeVC") as! HomeVC
+        let nav = UINavigationController(rootViewController: homeVC)
+        self.window!.rootViewController = nav
+        
+        
+        
+        // logo mask
+        homeVC.view.layer.mask = CALayer()
+        homeVC.view.layer.mask!.contents = UIImage(named: "puzzleLogo.png")!.CGImage
+        homeVC.view.layer.mask!.bounds = CGRect(x: 0, y: 0, width: 60, height: 60)
+        homeVC.view.layer.mask!.anchorPoint = CGPoint(x: 0.5, y: 0.5)
+        homeVC.view.layer.mask!.position = CGPoint(x: homeVC.view.frame.width / 2, y: homeVC.view.frame.height / 2)
+        
+        // logo mask background view
+        var maskBgView = UIView(frame: homeVC.view.frame)
+        maskBgView.backgroundColor = UIColor.whiteColor()
+        homeVC.view.addSubview(maskBgView)
+        homeVC.view.bringSubviewToFront(maskBgView)
+        
+        // logo mask animation
+        let transformAnimation = CAKeyframeAnimation(keyPath: "bounds")
+        transformAnimation.delegate = self
+        transformAnimation.duration = 1
+        transformAnimation.beginTime = CACurrentMediaTime() + 1 //add delay of 1 second
+        let initalBounds = NSValue(CGRect: homeVC.view.layer.mask!.bounds)
+        let secondBounds = NSValue(CGRect: CGRect(x: 0, y: 0, width: 50, height: 50))
+        let finalBounds = NSValue(CGRect: CGRect(x: 0, y: 0, width: 2000, height: 2000))
+        transformAnimation.values = [initalBounds, secondBounds, finalBounds]
+        transformAnimation.keyTimes = [0, 0.5, 1]
+        transformAnimation.timingFunctions = [CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut), CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseOut)]
+        transformAnimation.removedOnCompletion = false
+        transformAnimation.fillMode = kCAFillModeForwards
+        homeVC.view.layer.mask!.addAnimation(transformAnimation, forKey: "maskAnimation")
+        
+        // logo mask background view animation
+        UIView.animateWithDuration(0.1,
+                                   delay: 1.35,
+                                   options: UIViewAnimationOptions.CurveEaseIn,
+                                   animations: {
+                                    maskBgView.alpha = 0.0
+            },
+                                   completion: { finished in
+                                    maskBgView.removeFromSuperview()
+        })
+        
+        // root view animation
+        UIView.animateWithDuration(0.25,
+                                   delay: 1.3,
+                                   options: UIViewAnimationOptions.TransitionNone,
+                                   animations: {
+                                    self.window!.rootViewController!.view.transform = CGAffineTransformMakeScale(1.05, 1.05)
+            },
+                                   completion: { finished in
+                                    UIView.animateWithDuration(0.3,
+                                        delay: 0.0,
+                                        options: UIViewAnimationOptions.CurveEaseInOut,
+                                        animations: {
+                                            self.window!.rootViewController!.view.transform = CGAffineTransformIdentity
+                                        },
+                                        completion: nil
+                                    )
+        })
+        
         return true
     }
 
@@ -105,6 +178,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 abort()
             }
         }
+    }
+    
+    override func animationDidStop(anim: CAAnimation, finished flag: Bool) {
+        // remove mask when animation completes
+        homeVC.view.layer.mask = nil
     }
 
 }
