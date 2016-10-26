@@ -61,9 +61,7 @@ class HomeVC: UIViewController {
         // male unquieArray
         
         randomArray = RandomUniquieArray.init()
-        
-              randomArray.uniqueArray = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
-        
+                
         self.navigationController?.navigationBar.hidden = true
         
         // define sound class
