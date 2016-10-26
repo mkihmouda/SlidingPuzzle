@@ -2,7 +2,7 @@
 Sliding Image Puzzle IOS Swift image puzzle game.
 
 
-“SlidingPuzzle” is a beautiful 4*4 sliding image puzzle IOS App, written in swift. Try to solve puzzles is relaxing, rewarding, and keeping your mind active.
+“SlidingPuzzle” is a beautiful 4*4 sliding image puzzle IOS App, written in swift 2.2. Try to solve puzzles is relaxing, rewarding, and keeping your mind active.
 
 
 <p align="center">
