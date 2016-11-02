@@ -1,9 +1,15 @@
 # SlidingPuzzle
 Sliding Image Puzzle IOS Swift image puzzle game.
 
+[![Swift 2.3](https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat)](https://swift.org/)
+[![License](https://img.shields.io/cocoapods/l/ParallaxView.svg)](https://github.com/PGSSoft/ParallaxView/LICENSE.md)
 
 “SlidingPuzzle” is a beautiful 4*4 sliding image puzzle IOS App, written in swift 2.2. Try to solve puzzles is relaxing, rewarding, and keeping your mind active.
 
+
+## Requirements
+
+Swift 2.3
 
 <p align="center">
  
@@ -66,6 +72,15 @@ Sliding Image Puzzle IOS Swift image puzzle game.
   
   
   
+## License
+
+The project is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+
+ 
+## About
+
+The project maintained by [Grand PH], [IOS and MAC Softwares]
+See our other [open-source projects](https://github.com/mkihmouda) or [contact us].
   
   
   
