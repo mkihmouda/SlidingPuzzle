@@ -80,7 +80,7 @@ The project is available as open source under the terms of the [MIT License](htt
 ## About
 
 The project maintained by [Grand PH], [IOS and MAC Softwares]
-See our other [open-source projects](https://github.com/mkihmouda), [download_app]( https://itunes.apple.com/us/app/slide-ipuzzle/id1173188082?mt=8)or [contact us].
+See our other [open-source projects](https://github.com/mkihmouda), [download_app]( https://itunes.apple.com/us/app/slide-ipuzzle/id1173188082?mt=8) or [contact us].
   
   
  
