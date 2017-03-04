@@ -14,7 +14,7 @@ Swift 2.3
 <p align="center">
  
   <br><br>  <br><br>
-  <img src="http://katikids.com/IPuzzle1.png" height="850" width="600">
+  <img src="http://appsgeeks.de/IPuzzle1.png" height="850" width="600">
  
   </p>
 
@@ -25,14 +25,14 @@ Swift 2.3
 
 <p align="center">
  
-   <img src="http://katikids.com/IPuzzle1.png" height="850" width="400">
+   <img src="http://appsgeeks.de/IPuzzle1.png" height="850" width="400">
  
  </p>
   
   
   <p align="center">
  
-  <img src="http://katikids.com/IPuzzle6.png" height="350" width="800">
+  <img src="http://appsgeeks.de/IPuzzle6.png" height="350" width="800">
  
   </p>
   
@@ -44,14 +44,14 @@ Swift 2.3
   
   <p align="center">
  
-   <img src="http://katikids.com/IPuzzle2.png" height="850" width="400">
+   <img src="http://appsgeeks.de/IPuzzle2.png" height="850" width="400">
  
  </p>
   
   
   <p align="center">
  
-  <img src="http://katikids.com/IPuzzle3.png" height="850" width="400">
+  <img src="http://appsgeeks.de/IPuzzle3.png" height="850" width="400">
  
   </p>
   
@@ -59,14 +59,14 @@ Swift 2.3
   
   <p align="center">
  
-   <img src="http://katikids.com/IPuzzle4.png" height="850" width="400">
+   <img src="http://appsgeeks.de/IPuzzle4.png" height="850" width="400">
  
  </p>
   
   
   <p align="center">
  
-  <img src="http://katikids.com/IPuzzle5.png" height="850" width="400">
+  <img src="http://appsgeeks.de/IPuzzle5.png" height="850" width="400">
  
   </p>
   
