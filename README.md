@@ -14,7 +14,7 @@ Swift 2.3
 <p align="center">
  
   <br><br>  <br><br>
-  <img src="http://appsgeeks.de/IPuzzle1.png" height="850" width="600">
+  <img src="http://mawaeed.96.lt/uploads/IPuzzle1.png" height="850" width="600">
  
   </p>
 
@@ -25,14 +25,14 @@ Swift 2.3
 
 <p align="center">
  
-   <img src="http://appsgeeks.de/IPuzzle1.png" height="850" width="400">
+   <img src="http://mawaeed.96.lt/uploads/IPuzzle1.png" height="850" width="400">
  
  </p>
   
   
   <p align="center">
  
-  <img src="http://appsgeeks.de/IPuzzle6.png" height="350" width="800">
+  <img src="http://mawaeed.96.lt/uploads/IPuzzle6.png" height="350" width="800">
  
   </p>
   
@@ -44,14 +44,14 @@ Swift 2.3
   
   <p align="center">
  
-   <img src="http://appsgeeks.de/IPuzzle2.png" height="850" width="400">
+   <img src="http://mawaeed.96.lt/uploads/IPuzzle2.png" height="850" width="400">
  
  </p>
   
   
   <p align="center">
  
-  <img src="http://appsgeeks.de/IPuzzle3.png" height="850" width="400">
+  <img src="http://mawaeed.96.lt/uploads/IPuzzle3.png" height="850" width="400">
  
   </p>
   
@@ -59,14 +59,14 @@ Swift 2.3
   
   <p align="center">
  
-   <img src="http://appsgeeks.de/IPuzzle4.png" height="850" width="400">
+   <img src="http://mawaeed.96.lt/uploads/IPuzzle4.png" height="850" width="400">
  
  </p>
   
   
   <p align="center">
  
-  <img src="http://appsgeeks.de/IPuzzle5.png" height="850" width="400">
+  <img src="http://mawaeed.96.lt/uploads/IPuzzle5.png" height="850" width="400">
  
   </p>
   
